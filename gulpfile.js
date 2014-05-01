@@ -41,9 +41,15 @@ gulp.task('compress-img', function() {
         .pipe(gulp.dest('./bin/img'));
 });
 
+gulp.task('copy', function() {
+    return gulp.src(['favicon.ico'])
+        .pipe(gulp.dest('./bin'));
+});
+
 gulp.task('default', [
     'css', 
     'preprocess', 
     'compress-js', 
-    'compress-img'
+    'compress-img',
+    'copy'
 ]);
