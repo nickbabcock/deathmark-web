@@ -46,4 +46,4 @@ gulp.task('default', [
     'preprocess', 
     'compress-js', 
     'compress-img'
-], function() { });
+]);
