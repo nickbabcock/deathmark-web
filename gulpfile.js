@@ -21,7 +21,7 @@ gulp.task('markdown', function() {
 });
 
 gulp.task('preprocess', ['markdown'], function() {
-    return gulp.src(['index.html', 'postmortem.html'])
+    return gulp.src(['index.html', 'postmortem.html', 'about.html'])
         .pipe(preprocess())
         .pipe(gulp.dest('./bin'));
 });
