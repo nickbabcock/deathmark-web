@@ -42,7 +42,7 @@ gulp.task('compress-img', function() {
 });
 
 gulp.task('copy', function() {
-    return gulp.src(['favicon.ico'])
+    return gulp.src(['favicon.ico', 'robots.txt'])
         .pipe(gulp.dest('./bin'));
 });
 
