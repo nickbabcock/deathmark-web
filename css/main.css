@@ -65,15 +65,6 @@ body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
 .header-container {
     border-bottom: 20px solid #2A2C2B;
 }
@@ -180,9 +171,23 @@ section ul li:before {
 
 section ul li { text-indent:-5px; }
 
+img { max-width: 100%; }
 
+div.feature {
+    margin: 50px;
+}
 
+@media only screen and (min-width: 1140px) {
 
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
 
 
 
@@ -249,32 +254,6 @@ section ul li { text-indent:-5px; }
     nav {
         float: right;
         width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
     }
 }
 
