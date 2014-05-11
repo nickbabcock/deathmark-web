@@ -11,6 +11,9 @@
 - View site in browser
 - Repeat
 
+Alternatively, feel free just to edit whatever you want inplace, send a pull
+request, and I can build it!
+
 [nodejs]: http://nodejs.org/
 ~
 
