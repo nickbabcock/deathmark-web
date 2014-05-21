@@ -103,8 +103,7 @@ several soldiers in RAIN that were able to patrol an area and attack the player
 if the player encroached. Since Mark worked in near isolation on his level, when
 trying to combine his level into the rest of the world, numerous problems arose
 that prevented us from successfully incorporating it. Thus, the fruit of Mark's
-labor can't be seen in the main game and can only be seen in `Assets/Plugins/FPS
-Constructor V1/Scenes/Mark's Puzzle.unity`
+labor can't be seen in the main game and can only be seen in the repository.
 
 If it hadn't of been prescribed and required for us, our group wouldn't have
 utilized the burndown chart. It is, in our opinion, that a burndown chart
