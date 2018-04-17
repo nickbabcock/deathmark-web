@@ -1,3 +1,6 @@
+---
+url: /postmortem.html
+---
 
 ## Introduction
 
